@@ -1,4 +1,5 @@
 <?php
+require_once 'rollbar.php';
 class RollbarComponent extends CApplicationComponent
 {
 	public $accessToken;

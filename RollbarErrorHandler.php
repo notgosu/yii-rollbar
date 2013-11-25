@@ -1,4 +1,5 @@
 <?php
+require_once 'rollbar.php';
 class RollbarErrorHandler extends CErrorHandler
 {
 	protected function handleException($exception)
